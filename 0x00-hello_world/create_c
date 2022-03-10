@@ -1,0 +1,19 @@
+#!/bin/bash
+for arg1 in $@
+do
+touch $arg1
+
+echo "#include <stdio.h>" >> $arg1
+echo " " >> $arg1
+echo "/**" >> $arg1 
+echo "* main - Entry point" >> $arg1
+echo "*" >> $arg1
+echo "* Return: Always 0 (Success)" >> $arg1
+echo "*/" >> $arg1
+echo "int main(void)" >> $arg1
+echo "{" >> $arg1
+echo "    return (0);" >> $arg1
+echo "}" >> $arg1
+
+emacs $arg1
+done
