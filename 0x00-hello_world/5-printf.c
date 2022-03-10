@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* This is a printf test file
+* main - This is a printf test file
 *
 * Return: Always 0 (Success)
 */
