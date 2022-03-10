@@ -4,8 +4,7 @@ do
 touch $arg1
 
 echo "#include <stdio.h>" >> $arg1
-echo " " >> $arg1
-echo "/**" >> $arg1 
+echo "/**" >> $arg1
 echo "* main - Entry point" >> $arg1
 echo "*" >> $arg1
 echo "* Return: Always 0 (Success)" >> $arg1
