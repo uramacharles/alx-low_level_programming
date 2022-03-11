@@ -10,9 +10,7 @@
 */
 int main(void)
 {
-/**
-*This is the main function
-*/
+/* Description - This is the main function*/
 	int n;
 
 	srand(time(0));
