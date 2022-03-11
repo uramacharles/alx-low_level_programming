@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
-* Main - Entry point
-* This file is for 0-positive_or_negative.c
-*
-* Return: Always 0 (Sucess)
-*/
+ * Main - Entry point
+ * This file is for 0-positive_or_negative.c
+ *
+ * Return: Always 0 (Sucess)
+ */
 int main(void)
 {
 /* Description - This is the main function*/
