@@ -17,14 +17,11 @@ int main(void)
 	{
 		for (y = '0'; y < '9'; y++)
 		{
+			p = y + 1;
 			for (z = '0'; z <= '9'; z++)
 			{
-				for (p = '0'; p <= '9'; p++)
+				for (; p <= '9'; p++)
 				{
-					if (x == '0' && y == '0' && p == '0' && z == '0')
-					{
-						continue;
-					}
 					putchar(x);
 					putchar(y);
 					putchar(' ');
@@ -44,6 +41,7 @@ int main(void)
 						continue;
 					}
 				}
+				p = 0;
 			}
 		}
 	}
