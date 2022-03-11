@@ -21,6 +21,10 @@ int main(void)
 			{
 				for (p = '1'; p <= '9'; p++)
 				{
+					if (x == '0' && y == '0' && p == '0' && z == '0')
+					{
+						continue;
+					}
 					putchar(x);
 					putchar(y);
 					putchar(' ');
