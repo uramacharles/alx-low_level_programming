@@ -6,7 +6,7 @@
  * Main - Entry point
  * This file is for 0-positive_or_negative.c
  *
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 int main(void) /** Description - this is the main function */
 {
