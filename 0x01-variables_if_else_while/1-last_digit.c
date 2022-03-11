@@ -16,14 +16,14 @@ int main(void)
 	mod = n%10;
 	if (n > 0 && mod > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5", n, mod);
+		printf("Last digit of %d is %d and is greater than 5\n", n, mod);
 	}
 	if (n == 0)
 	{
-		printf("Last digit of %d is %d and is 0", n, mod);
+		printf("Last digit of %d is %d and is 0\n", n, mod);
 	}
 	if (n < 0){
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, mod);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, mod);
 	}
 	return (0);
 }
