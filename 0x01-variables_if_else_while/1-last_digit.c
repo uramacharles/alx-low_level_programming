@@ -22,7 +22,8 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, mod);
 	}
-	if (n < 0 && mod != 0){
+	if (n < 0 && mod != 0)
+	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, mod);
 	}
 	return (0);
