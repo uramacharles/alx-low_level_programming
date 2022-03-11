@@ -4,7 +4,7 @@
 
 /**
  * Main - Entry point
- *
+ * Description - This is a positive or negative result file
  * Return: Always 0 (Success)
  *
  */
