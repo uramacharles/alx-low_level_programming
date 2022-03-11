@@ -8,9 +8,8 @@
  *
  * Return: Always 0 (Sucess)
  */
-int main(void)
+int main(void) /** Description - this is the main function */
 {
-/* Description - This is the main function*/
 	int n;
 
 	srand(time(0));
