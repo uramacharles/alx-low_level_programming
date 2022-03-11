@@ -3,12 +3,15 @@
 #include <time.h>
 
 /**
- * Main - Entry point
- * Description - This is a positive or negative result file
- * Return: Always 0 (Success)
- *
- */
-int main(void)
+* main - Entry point
+*
+* Description - This is a positive or negative result file
+*
+* Return: Always 0 (Success)
+*
+*
+*/
+int main(void) /* Description - this is the positive*/
 {
 	int n;
 
