@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
 * Main - Entry point
 * This file is for 0-positive_or_negative.c
 *
@@ -10,7 +10,9 @@
 */
 int main(void)
 {
-/*This is the main function*/
+/**
+*This is the main function
+*/
 	int n;
 
 	srand(time(0));
