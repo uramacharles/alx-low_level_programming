@@ -26,11 +26,15 @@ int main(void)
 					putchar(' ');
 					putchar(z);
 					putchar(p);
-					if (x <= '9' && y <= '8' && z <= '9' && p <= '9')
+					if (x == '9' && y == '8' && z == '9' && p == '9')
+					{
+						continue;
+					}
+					else if (x <= '9' && y <= '8' && z <= '9' && p <= '9')
 					{
 						putchar(',');
 						putchar(' ');
-				        }
+					}
 					else
 					{
 						continue;
