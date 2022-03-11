@@ -41,7 +41,7 @@ int main(void)
 						continue;
 					}
 				}
-				p = 0;
+				p = '0';
 			}
 		}
 	}
