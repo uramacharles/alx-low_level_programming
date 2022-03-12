@@ -12,6 +12,8 @@ int main(void)
 	int y;
 	int z;
 	int p;
+	int c1;
+	int c2;
 
 	for (x = '0'; x <= '9'; x++)
 	{
@@ -22,15 +24,20 @@ int main(void)
 			{
 				for (; p <= '9'; p++)
 				{
-					putchar(x);
-					putchar(y);
-					putchar(' ');
-					putchar(z);
-					putchar(p);
-					if (x == '9' && y == '8' && z == '9' && p == '9')
-						continue;
-			       		putchar(',');
-				       	putchar(' ');
+					c1 = ('x' * 10) + 'y';
+					c2 = ('z' * 10) + 'p';
+					if (c1 < c2)
+					{
+						putchar(x);
+						putchar(y);
+						putchar(' ');
+						putchar(z);
+						putchar(p);
+						if (x == '9' && y == '8' && z == '9' && p == '9')
+							continue;
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
