@@ -8,40 +8,45 @@
 */
 int main(void)
 {
-	int x;
-	int y;
-	int z;
-	int p;
-	int c1;
-	int c2;
-
-	for (x = '0'; x <= '9'; x++)
+	int i;
+	int e;
+	int g;
+	int h;
+	int op1;
+	int op2;
+	i = e = g = h = 48;
+	while (h < 58)
 	{
-		for (y = '0'; y < '9'; y++)
+		g = 48;
+		while (g < 58)
 		{
-			p = y + 1;
-			for (z = '0'; z <= '9'; z++)
+			e = 48;
+			while (e < 58)
 			{
-				for (; p <= '9'; p++)
+				i = 48;
+				while (i < 58)
 				{
-					c1 = ('x' * 10) + 'y';
-					c2 = ('z' * 10) + 'p';
-					if (c1 < c2)
+					op1 = (h * 10) + g;
+					op2 = (e * 10) + i;
+					if (op1 < op2)
 					{
-						putchar(x);
-						putchar(y);
+						putchar(h);
+						putchar(g);
 						putchar(' ');
-						putchar(z);
-						putchar(p);
-						if (x == '9' && y == '8' && z == '9' && p == '9')
-							continue;
+						putchar(e);
+						putchar(i);
+						if (h == 57 && g == 56 && e == 57 && i == 57)
+							break;
 						putchar(',');
 						putchar(' ');
 					}
+					i++;
 				}
+				e++;
 			}
+			g++;
 		}
+		h++;
 	}
-	putchar('\n');
 	return (0);
 }
