@@ -14,6 +14,7 @@ int main(void)
 	int h;
 	int op1;
 	int op2;
+
 	i = e = g = h = 48;
 	while (h < 58)
 	{
