@@ -12,6 +12,8 @@ int main(void)
 	int y;
 	int z;
 	int p;
+	int c1;
+	int c2;
 
 	for (x = '0'; x <= '9'; x++)
 	{
