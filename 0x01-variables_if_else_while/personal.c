@@ -28,10 +28,20 @@ int main(void)
 					putchar(z);
 					putchar(p);
 					if (x == '9' && y == '8' && z == '9' && p == '9')
+					{
 						continue;
-			       		putchar(',');
-				       	putchar(' ');
+					}
+					else if (x <= '9' && y <= '8' && z <= '9' && p <= '9')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					else
+					{
+						continue;
+					}
 				}
+				p = '0';
 			}
 		}
 	}
