@@ -4,7 +4,7 @@
 
 /**
 * print_to_98 - Entry point
-*
+* @x: this is the number to start with
 * Return: Always 0 (Success)
 */
 void print_to_98(int x)

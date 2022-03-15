@@ -4,7 +4,8 @@
 
 /**
 * add - Entry point
-*
+* @x: the first int to add
+* @y: the second int to add
 * Return: Always 0 (Success)
 */
 int add(int x, int y)

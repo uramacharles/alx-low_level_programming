@@ -4,7 +4,7 @@
 
 /**
 * print_last_digit - Entry point
-*
+* @x: the number to work on.
 * Return: Always the value of r (Success)
 */
 int print_last_digit(int x)

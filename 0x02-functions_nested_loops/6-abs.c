@@ -5,7 +5,8 @@
 /**
 * _abs - Entry point
 *
-* Return: Always 0 (Success)
+*@n: this is the number to make absolute
+* Return: Always absolute number
 */
 int _abs(int n)
 {

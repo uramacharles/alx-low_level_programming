@@ -5,6 +5,7 @@
 /**
 * _isalpha - this prints all the alphabets.
 *
+* @x: the int value for the check
 * Return: Always 0 (Success)
 */
 int _isalpha(int x)
