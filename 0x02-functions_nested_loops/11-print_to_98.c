@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
 * main - Entry point
@@ -22,5 +22,4 @@ void print_to_98(int x)
 			putchar('\n');
 		}
 	}
-return;
 }

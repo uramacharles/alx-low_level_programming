@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
 * main - Entry point
@@ -9,7 +9,7 @@
 */
 int _islower(int x)
 {
-	if(x >= 97 && x < 123)
+	if (x >= 97 && x < 123)
 		return (1);
 	else
 		return (0);

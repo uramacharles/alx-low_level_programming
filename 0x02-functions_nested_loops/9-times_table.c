@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
 * main - Entry point
@@ -26,5 +26,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-return (0);
 }
