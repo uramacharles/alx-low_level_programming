@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -15,6 +13,7 @@ void times_table(void)
 
 	for (i = 0; i < 10; i++)
 	{
+		c = 0;
 		_putchar('0' + 0);
 		_putchar(',');
 		_putchar(' ');
