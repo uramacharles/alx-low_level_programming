@@ -5,6 +5,8 @@
 /**
 * _islower - Entry point
 *
+* x - the value to be checked
+*
 * Return: Always 0 (Success)
 */
 int _islower(int x)
