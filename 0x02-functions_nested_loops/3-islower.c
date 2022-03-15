@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-* _islower() - Entry point
+* _islower - Entry point
 *
-* x - the value to be checked
+* Parameter: x - the value to be checked
 *
 * Return: Always 0 (Success)
 */
