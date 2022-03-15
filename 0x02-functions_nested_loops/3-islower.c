@@ -5,7 +5,7 @@
 /**
 * _islower - Entry point
 *
-* Parameter: x - the value to be checked
+* parameter: x - the value to be checked
 *
 * Return: Always 0 (Success)
 */
