@@ -25,13 +25,13 @@ void times_table(void)
 			if (c < 10)
 			{
 				_putchar(',');
-				_putchar('\t');
+				_putchar(' ');
 				_putchar('0' + c);
 			}
 			if (c >= 10)
 			{
 				_putchar(',');
-				_putchar('\t');
+				_putchar(' ');
 				_putchar('0' + (c / 10));
 				_putchar('0' + (c % 10));
 			}
