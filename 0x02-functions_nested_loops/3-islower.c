@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
-* _islower - Entry point
+* _islower() - Entry point
 *
 * x - the value to be checked
 *
