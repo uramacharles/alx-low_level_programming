@@ -19,7 +19,7 @@ void print_times_table(int x)
 			for (j = 0; j < 10; j += j)
 			{
 				c += i;
-				_putchar(c);
+				_putchar('0' + c);
 				_putchar(',');
 				_putchar(' ');
 			}
