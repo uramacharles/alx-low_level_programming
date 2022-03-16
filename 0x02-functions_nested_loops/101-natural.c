@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i;
-	long unsigned int sumi, sumj, sum;
+	unsigned long int sumi, sumj, sum;
 
 	sumi = 0;
 	sumj = 0;
@@ -20,7 +20,7 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			sumi +=i;
+			sumi +=i ;
 		}
 		else if ((i % 5) == 0)
 		{
