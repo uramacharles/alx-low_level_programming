@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -9,17 +8,26 @@
 */
 void print_to_98(int x)
 {
-	int i;
-	for (i = x; i <= 98; i++)
+	int i, j;
+
+	if (x > 98)
 	{
-		putchar('0' + i);
-		if (i < 98)
+		for (j = x; j >= 98; j--)
 		{
-			putchar(',');
-			putchar(' ');
+			if (j != 98)
+				printf("%d, ",j);
+			else if (j == 98)
+				printf("%d\n", j);
 		}
-		else{
-			putchar('\n');
+	}
+	else if (x <= 98)
+	{
+		for (i = x; i <= 98; i++)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+			else if (i == 98)
+				printf("%d\n", i);
 		}
 	}
 }
