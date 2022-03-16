@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+11;rgb:0000/0000/0000#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -26,5 +26,5 @@ int main(void)
 	}
 	sum = sumi + sumj;
 	printf("%lu\n", sum);
-	return;
+	return (0);
 }
