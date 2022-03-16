@@ -20,7 +20,7 @@ int main(void)
 	{
 		if ((i % 3) == 0)
 		{
-			sumi +=i ;
+			sumi += i ;
 		}
 		else if ((i % 5) == 0)
 		{
