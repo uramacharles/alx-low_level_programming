@@ -9,7 +9,8 @@
 */
 int main(void)
 {
-	int i, j, sumi, sumj, sum;
+	int i, j;
+	long unsigned int sumi, sumj, sum;
 
 	sumi = 0;
 	sumj = 0;
