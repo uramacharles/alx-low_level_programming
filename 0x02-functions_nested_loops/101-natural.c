@@ -16,11 +16,11 @@ int main(void)
 	sumj = 0;
 	sum = 0;
 
-	for (i = 3; i <= 1024; i + 3)
+	for (i = 3; i <= 1024; i += 3)
 	{
 		sumi += i;
 	}
-	for (j = 5; j <= 1024;j + 5)
+	for (j = 5; j <= 1024;j += 5)
 	{
 		sumj += j;
 	}
