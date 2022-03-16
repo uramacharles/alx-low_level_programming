@@ -11,9 +11,9 @@ void print_times_table(int x)
 
 	if ((x >= 0) && (x <= 15))
 	{
-		for (i = 0; i <= n; i++)
+		for (i = 0; i <= x; i++)
 		{
-			for (j = 0; j <= n; j++)
+			for (j = 0; j <= x; j++)
 			{
 				c = j * i;
 				if (j == 0)
