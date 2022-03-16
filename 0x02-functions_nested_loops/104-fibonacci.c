@@ -15,11 +15,11 @@ int main(void)
 	c = 2;
 	printf("%lu", b);
 
-	for (a = 1, a < 91; a++)
+	for (a = 1; a < 91; a++)
 	{
 		printf(", %lu", c);
 		c = c + b;
-		b = c - b
+		b = c - b;
 	}
 	b1 = b / 1000000000;
 	b2 = b % 1000000000;
