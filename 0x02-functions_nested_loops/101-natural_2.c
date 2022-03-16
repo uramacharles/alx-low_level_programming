@@ -9,23 +9,20 @@
 */
 int main(void)
 {
-	int i;
+	int i, j;
 	long unsigned int sumi, sumj, sum;
 
 	sumi = 0;
 	sumj = 0;
 	sum = 0;
 
-	for (i = 0; i <= 1024; i += 3)
+	for (i = 3; i < 1024; i += 3)
 	{
-		if ((i % 3) == 0)
-		{
-			sumi +=i;
-		}
-		else if ((i % 5) == 0)
-		{
-			sumj += i;
-		}
+		sumi += i;
+	}
+	for (j = 5; j < 1024;j += 5)
+	{
+		sumj += j;
 	}
 	sum = sumi + sumj;
 	printf("%lu\n", sum);
