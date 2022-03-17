@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* main - Entry point
-* @x: the input
+* print_most_numbers - Entry point
+*  the input
 * Return: Always 0 (Success)
 */
 void print_most_numbers(void)

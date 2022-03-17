@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* print_line - Entry point
 * @x: the input
 * Return: Always 0 (Success)
 */
