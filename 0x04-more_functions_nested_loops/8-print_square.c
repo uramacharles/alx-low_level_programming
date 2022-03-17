@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_squares - Entry point
+* print_square - Entry point
 * @x: the input
 * Return: Always 0 (Success)
 */
