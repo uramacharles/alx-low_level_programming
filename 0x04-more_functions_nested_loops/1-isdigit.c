@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* _isdigit - Entry point
 * @x: the input
 * Return: Always 0 (Success)
 */
