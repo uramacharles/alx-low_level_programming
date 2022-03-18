@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* print_number - Entry point
 * @x: the input
 * Return: Always 0 (Success)
 */
