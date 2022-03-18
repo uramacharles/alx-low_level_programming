@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
-* main - Entry point
+* print_numbers - Entry point
 * the input
 * Return: Always 0 (Success)
 */
@@ -11,7 +10,7 @@ void print_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		_putchar('0', + i);
+		_putchar('0', +i);
 	}
 	_putchar('\n');
 }
