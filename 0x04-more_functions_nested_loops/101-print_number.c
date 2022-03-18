@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -8,7 +7,7 @@
 */
 void print_number(int x)
 {
-	int n;
+	unsigned int n;
 
 	n = x;
 	if (x < 0)
