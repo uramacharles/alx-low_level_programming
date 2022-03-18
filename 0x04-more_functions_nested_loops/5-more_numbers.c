@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * more_numbers - Entry point
 * the input
@@ -7,10 +8,11 @@
 void more_numbers(void)
 {
 	int i, j;
+
 	for (i = 0; i < 10; i++)
 	{
 		j = 0;
-		while (j <=14)
+		while (j <= 14)
 		{
 			if (j > 9)
 				_putchar('0' + j / 10);
