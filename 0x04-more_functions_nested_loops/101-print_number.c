@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,21 +8,15 @@
 */
 void print_number(int x)
 {
-	int i, y;
+	int n;
 
-	y = abs(x);
-
-	if (x >= 0 && x < 9)
+	n = x;
+	if (x < 0)
 	{
-		_putchar('0', + x);
-		_putchar('\n');
+		_putchar(45);
+		n = -x;
 	}
-	else if (x < 0)
-	{
-		_putchar('-');
-		do{
-			putchar('0',(x % 10));
-		}
-		while();
-	}
+	if (n / 10)
+		print_number(n / 10);
+	_putchar('0' + (n % 10));
 }
