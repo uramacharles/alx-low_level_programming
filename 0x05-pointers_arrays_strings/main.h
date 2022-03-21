@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char);
-void reset_to_98(int);
+void reset_to_98(int *x);
 void swap_int(int, int);
 int _strlen(char);
 void _puts(char);
