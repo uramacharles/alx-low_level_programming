@@ -2,7 +2,7 @@
 
 /**
 * *leet - Entry point
- *@s: pointer to string.
+ *@str: pointer to string.
  *
  *Return: pointer to s.
  */
