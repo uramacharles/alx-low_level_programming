@@ -1,7 +1,7 @@
 #include "main.h"
-
+11;rgb:0000/0000/0000
 /**
- * _strpbrk - gets lengthof a prefix substring. ends when a foreign character is seen.
+ * _strpbrk - the function
  * @s: string to check
  * @accept: string to check against
  *
@@ -25,7 +25,7 @@ char *_strpbrk(char *s, char *accept)
 		if (check == 1)
 			break;
 	}
-	if(check == 1)
+	if (check == 1)
 		return (s + i);
 	else
 		return (0);

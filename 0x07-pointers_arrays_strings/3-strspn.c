@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strspn - gets lengthof a prefix substring. ends when a foreign character is seen.
+ * _strspn - gets lengthof a prefix substring.
+ *ends when a foreign character is seen.
  * @s: string to check
  * @accept: string to check against
  *
