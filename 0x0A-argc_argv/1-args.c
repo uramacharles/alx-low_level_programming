@@ -7,6 +7,6 @@
  */
 int main(int count, char *argum[] __attribute__((unused)))
 {
-	printf("%d\n", argum - 1);
+	printf("%d\n", count - 1);
 	return (0);
 }
