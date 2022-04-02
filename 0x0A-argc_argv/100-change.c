@@ -11,12 +11,12 @@ int main(int count, char *argum[])
 {
 	int cents, ncoins = 0;
 
-	if (count == 1 || count > 2)
+	if (count != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	if (argum[1] < 0)
+	if (*argum[1] < 0)
 	{
 		putchar('0');
 		return (0);
