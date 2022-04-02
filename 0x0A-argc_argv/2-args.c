@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - prints all arguments it receives.
- * @count number of command line arguments.
- * @argum array that contains the program command line arguments.
+ * @count: number of command line arguments.
+ * @argum: array that contains the program command line arguments.
  * Return: 0 - success.
  */
 int main(int count, char *argum[])
