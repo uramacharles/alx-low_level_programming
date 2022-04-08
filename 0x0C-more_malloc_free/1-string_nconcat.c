@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n > counts2)
 		n = counts2;
 
-	countoutpt = counts2 + n;
+	countoutpt = counts1 + n;
 
 	outpt = malloc(countoutpt + 1);
 
