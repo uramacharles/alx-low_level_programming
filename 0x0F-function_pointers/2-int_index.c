@@ -24,7 +24,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 			cmp(array[j]);
 			if (cmp(array[j]) > 0)
 			{
-				ret = i;
+				ret = j;
 				break;
 			}
 			if ((cmp(array[j]) == (-1)))
