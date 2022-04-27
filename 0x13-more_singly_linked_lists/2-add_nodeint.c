@@ -22,14 +22,4 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	*head = new;
 
 	return (*head);
-}#include "main.h"
-
-/**
-* main - Entry point
-* @x: the input
-* Return: Always 0 (Success)
-*/
-int main(void)
-{
-return (0);
 }
