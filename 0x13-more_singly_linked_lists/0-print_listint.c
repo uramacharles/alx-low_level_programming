@@ -23,14 +23,3 @@ size_t print_listint(const listint_t *h)
 	return (count);
 
 }
-#include "main.h"
-
-/**
-* main - Entry point
-* @x: the input
-* Return: Always 0 (Success)
-*/
-int main(void)
-{
-return (0);
-}
