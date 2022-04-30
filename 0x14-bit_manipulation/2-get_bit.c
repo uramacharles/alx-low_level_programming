@@ -11,15 +11,25 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int i = 0;
 
-	while (i < index)
+	if (n > 0 && index <= 63)
 	{
-		if (i == index)
+		while (i < index)
 		{
-			printf("%d \n", index);
-			return (n & 1);
+			if (i == index)
+			{
+				break;
+			}
+			n >>= 1;
+			i++;
 		}
-		n >>= 1;
-		i++;
+		return (n & 1);
 	}
-	return (n & 1);
+	else if (n == 0 && index <= 63)
+	{
+		return (0);
+	}
+	else
+	{
+		return (-1);
+	}
 }
