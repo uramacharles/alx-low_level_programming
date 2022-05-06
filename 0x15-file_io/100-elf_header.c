@@ -89,7 +89,7 @@ void print_osabi(char *ptr)
 {
 	char osabi = ptr[7];
 
-	printf("  OS/ABI:\t\t");
+	printf("  OS/ABI:                            ");
 	if (osabi == 0)
 		printf("UNIX - System V\n");
 	else if (osabi == 2)
@@ -99,7 +99,7 @@ void print_osabi(char *ptr)
 	else
 		printf("<unknown: %x>\n", osabi);
 
-	printf("  ABI Version:\t\t %d\n", ptr[8]);
+	printf("  ABI Version:                       %d\n", ptr[8]);
 }
 
 
@@ -112,7 +112,7 @@ void print_version(char *ptr)
 {
 	int version = ptr[6];
 
-	printf("  Version:\t\t %d", version);
+	printf("  Version:                           %d", version);
 
 	if (version == EV_CURRENT)
 		printf(" (current)");
@@ -128,7 +128,7 @@ void print_data(char *ptr)
 {
 	char data = ptr[5];
 
-	printf("  Data: 2's complement");
+	printf("  Data:                              2's complement");
 	if (data == 1)
 		printf(", little endian\n");
 
@@ -169,10 +169,10 @@ void check_sys(char *ptr)
 	print_magic(ptr);
 
 	if (sys == '1')
-		printf("  Class:\t\t ELF32\n");
+		printf("  Class:                             ELF32\n");
 
 	if (sys == '2')
-		printf("  Class:\t\t ELF64\n");
+		printf("  Class:                             ELF64\n");
 
 	print_data(ptr);
 	print_version(ptr);
